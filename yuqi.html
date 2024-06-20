@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra - Hyper Fashion</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Soyeon.html">
+                <img src="imagem_2024-06-16_192115604-removebg-preview.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+                Hyper Fashion
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Soyeon.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="compra.html">Produtos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mais
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Soyeon.html#sobre-nos-section">Sobre nos</a></li>
+                            <li><a class="dropdown-item" href="Shushua.html">Contate-nos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="yuqi.html">Compre</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Procurar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="Firefly vestido technoGlam que se ajusta no corpo mais realista que pareça com tecido 41847.jpg" alt="Produto" class="img-fluid">
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <h2>Vestido TechnoGlam</h2>
+                <p class="lead">Descrição do produto e características.</p>
+                <p>Este vestido TechnoGlam é feito com os mais avançados tecidos biotecnológicos que se ajustam perfeitamente ao seu corpo e proporcionam conforto excepcional. Disponível em diversas cores e tamanhos.</p>
+                <p class="lead">Preço: R$ 299,99</p>
+                <form action="#" method="POST">
+                    <div class="mb-3">
+                        <label for="size" class="form-label">Tamanho</label>
+                        <select class="form-select" id="size" name="size">
+                            <option selected>Escolha o tamanho...</option>
+                            <option value="pp">PP</option>
+                            <option value="p">P</option>
+                            <option value="m">M</option>
+                            <option value="g">G</option>
+                            <option value="gg">GG</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantidade</label>
+                        <input type="number" class="form-control" id="quantity" name="quantity" value="1" min="1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Adicionar ao carrinho</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <a href="https://pt-br.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/@X?mx=2" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://br.linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <p>&copy; 2024 Hyper Fashion. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
